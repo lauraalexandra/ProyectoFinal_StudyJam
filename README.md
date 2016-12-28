@@ -52,7 +52,12 @@ Aca te muestro cual es el funcionamiento de mi aplicación a grandes rasgos.
 
 <div align="center">
     <center>
-        <img src="/img/captura.gif" width="350">
+    <table border="0">
+    <tr>
+
+       <td> <img src="/img/captura.gif" width="350"></td>
+    </tr>
+    </table>
     </center>
 </div>
 
