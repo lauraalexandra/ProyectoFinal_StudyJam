@@ -60,7 +60,7 @@ Aca te muestro cual es el funcionamiento de mi aplicación a grandes rasgos.
     </table>
     </center>
 </div>
-
+<br>
 
 Descripción técnica
 ---
