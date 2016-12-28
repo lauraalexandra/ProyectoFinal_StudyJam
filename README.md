@@ -55,7 +55,7 @@ Aca te muestro cual es el funcionamiento de mi aplicación a grandes rasgos.
     <table border="0">
     <tr>
 
-       <td> <img src="/img/captura.gif" width="350"></td>
+       <td> <img src="/img/Captura.gif" width="350"></td>
     </tr>
     </table>
     </center>
