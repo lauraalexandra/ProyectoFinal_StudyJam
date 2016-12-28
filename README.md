@@ -65,10 +65,6 @@ En este proyecto se utilizaron los siguientes componentes tanto en el `diseño` 
 * LinearLayout (Horizontal) para la alineación de las vistas principales.
 * RelativeLayout, para el acomodamiento de la segunda pantalla: SplashScreenActivity.
 
-.
-.
-.
-
 
 Autora
 ---
