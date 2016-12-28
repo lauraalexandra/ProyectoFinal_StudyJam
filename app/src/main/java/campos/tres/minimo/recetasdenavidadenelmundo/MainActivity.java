@@ -1,4 +1,4 @@
-package campos.tres.minimo.ProyectoFinal_StudyJam;
+package campos.tres.minimo.recetasdenavidadenelmundo;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

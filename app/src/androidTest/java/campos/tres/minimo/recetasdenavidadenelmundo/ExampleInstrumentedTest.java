@@ -1,4 +1,4 @@
-package campos.tres.minimo.ProyectoFinal_StudyJam;
+package campos.tres.minimo.recetasdenavidadenelmundo;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

@@ -36,7 +36,7 @@ Uso
 ---------
 Para probar este ejemplo clona este repositorio de la siguiente forma:
 >
->     $ git clone https://github.com/Gusn8/ProyectoFinal_StudyJam.git
+>     https://github.com/lauraalexandra/ProyectoFinal_StudyJam.git
 
 Luego de ello dentro de Android Studio:
 
