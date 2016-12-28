@@ -48,11 +48,13 @@ Luego de ello dentro de Android Studio:
 Corrida previa
 ---
 
-
 Aca te muestro cual es el funcionamiento de mi aplicación a grandes rasgos.
 
-<br>
-
+<div align="center">
+    <center>
+        <img src="/img/captura.gif" width="350">
+    </center>
+</div>
 
 
 Descripción técnica
@@ -67,12 +69,6 @@ En este proyecto se utilizaron los siguientes componentes tanto en el `diseño` 
 .
 .
 
-**`Funcionalidad:`**
-
-* Ciclo de vida de una Activity, para detectar cuando se coloca en Pausado asi pueda seguir ejecutandose una tarea.
-.
-.
-.
 
 Autora
 ---

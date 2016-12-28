@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="3"
-        android:background="@drawable/Christmas_ornament">
+        android:background="@drawable/na">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -100,6 +100,7 @@
                     android:background="@drawable/contador"
                     android:gravity="center"
                     android:orientation="vertical" >
+
                     <TextView
                         android:id="@+id/txtTimerDay"
                         android:layout_width="fill_parent"
@@ -110,13 +111,14 @@
                         android:textColor="#4a0000"
                         android:textSize="35sp"
                         android:textStyle="bold" />
+
                     <TextView
                         android:id="@+id/tvDias"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:gravity="center_horizontal"
                         android:text="Días"
+                        android:paddingBottom="20dp"
                         android:textAppearance="?android:attr/textAppearanceSmall"
                         android:textColor="#fff"
                         android:textStyle="bold" />
@@ -142,10 +144,10 @@
                     <TextView
                         android:id="@+id/tvHoras"
                         android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
+                        android:layout_height="36dp"
                         android:gravity="center_horizontal"
                         android:text="Horas"
+                        android:paddingBottom="20dp"
                         android:textAppearance="?android:attr/textAppearanceSmall"
                         android:textColor="#fff"
                         android:textStyle="bold" />
@@ -171,10 +173,10 @@
                     <TextView
                         android:id="@+id/tvMinutos"
                         android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
+                        android:layout_height="37dp"
                         android:gravity="center_horizontal"
                         android:text="Minutos"
+                        android:paddingBottom="20dp"
                         android:textAppearance="?android:attr/textAppearanceSmall"
                         android:textColor="#fff"
                         android:textStyle="bold" />
@@ -200,10 +202,10 @@
                     <TextView
                         android:id="@+id/tvSegundos"
                         android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
+                        android:layout_height="37dp"
                         android:gravity="center_horizontal"
                         android:text="Segundos"
+                        android:paddingBottom="20dp"
                         android:textAppearance="?android:attr/textAppearanceSmall"
                         android:textColor="#fff"
                         android:textStyle="bold" />
@@ -250,6 +252,7 @@
                 android:paddingRight="20dp"
                 android:drawableLeft="@android:drawable/ic_menu_mapmode"
                 android:textAllCaps="false"
+                android:onClick="boton"
                 />
 
 

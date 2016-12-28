@@ -19,11 +19,13 @@
             <ImageView
                 android:id="@+id/recetaImg"
                 android:layout_width="match_parent"
+                android:paddingTop="15dp"
                 android:layout_height="150dp" />
             <TextView
                 android:id="@+id/recetaTxt"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:textStyle="bold"/>
 
         </LinearLayout>
     </ScrollView>

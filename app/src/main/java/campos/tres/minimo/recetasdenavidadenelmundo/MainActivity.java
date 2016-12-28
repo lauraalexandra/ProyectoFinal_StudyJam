@@ -1,5 +1,6 @@
 package campos.tres.minimo.recetasdenavidadenelmundo;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import java.text.SimpleDateFormat;
@@ -15,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
     private Runnable runnable;
 
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,21 +26,11 @@ public class MainActivity extends AppCompatActivity {
         tvHoras = (TextView) findViewById(R.id.tvHoras);
         tvMinutos = (TextView) findViewById(R.id.tvMinutos);
         tvSegundos = (TextView) findViewById(R.id.tvSegundos);
-        tvEvent = (TextView) findViewById(R.id.tvhappyevent);
         countDownStart();
     }
 
 
     public void countDownStart() {
-
-        /* boton!!
-
-
-     Intent intent = new Intent(this,MapsActivity.class);
-        startActivity(intent);
-        */
-
-
 
         handler = new Handler();
         runnable = new Runnable() {
@@ -83,7 +76,13 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.LinearLayout11).setVisibility(View.GONE);
         findViewById(R.id.LinearLayout12).setVisibility(View.GONE);
         findViewById(R.id.LinearLayout13).setVisibility(View.GONE);
-        findViewById(R.id.textView1).setVisibility(View.GONE);
-        findViewById(R.id.textView2).setVisibility(View.GONE);
+       /* findViewById(R.id.textView1).setVisibility(View.GONE);
+        findViewById(R.id.textView2).setVisibility(View.GONE);*/
+    }
+
+    void boton (View view)
+    {
+        Intent intent = new Intent(this,MapsActivity.class);
+        startActivity(intent);
     }
 }
